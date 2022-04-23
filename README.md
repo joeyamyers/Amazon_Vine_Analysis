@@ -12,7 +12,7 @@ I have chosen to analyze these reviews for pet products available on Amazon. I u
 ## Results
 I set out to determine if there is any bias towards reviews that were written as part of the Vine program. I wanted to know if having a paid Vine review makes a difference in the percentage of 5-star reviews.
 
-Firstly, I filtered the reviews to only include those that received 20 or more votes in order to pick reviews that are more likely to be helpful. Additionally, I filtered the rows again to include only those that earned at least a 50% rate of "helpful" reviews. I sorted the reviews into two dataframes: one with Vine reviews and the other with non Vine reviews. 
+Firstly, I filtered the reviews to only include those that received 20 or more votes in order to pick reviews that are more likely to be helpful. Additionally, I filtered the rows again to include only those that earned at least a 50% rate of "helpful" reviews. I sorted the reviews into two dataframes: one with Vine reviews and the other with non-Vine reviews. 
 
 ### Reviews
 #### Total Reviews
@@ -26,8 +26,8 @@ As one may expect, the non-Vine reviews far out numbered the Vine reviews.
 
 
 #### 5-Star Percentage
-- Vine reviews' 5 percentage: 38.2%
-- non-Vine reviews' 5 percentage: 54.5%
+- Vine reviews' 5-star percentage: 38.2%
+- non-Vine reviews' 5-star percentage: 54.5%
 
 
 ## Summary
