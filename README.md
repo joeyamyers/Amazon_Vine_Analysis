@@ -5,12 +5,12 @@
 
 ## Overview
 ## Purpose
-In this project, I am analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Amazon invited trusted reviewers based on their past reviews on purchased products to help other Amazon customers make informed purchased. Companies will pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
+In this project, I have analyzed Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Amazon invites trusted reviewers based on their past reviews on purchased products to help other Amazon customers make informed purchased. Companies will then pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
 I have chosen to analyze these reviews for pet products available on Amazon. I used PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Then, I used PySpark to determine if there is any bias toward favorable reviews from Vine members in the dataset. 
 
 ## Results
-I set out to determine if there is any bias towards reviews that were written as part of the Vine program. I wanted to know if having a paid Vine review makes a difference in the percentage of 5-star reviews.
+I set out to determine if there is any bias towards reviews that were written as part of the Vine program. I wanted to know if getting a paid Vine review causes a difference in the percentage of 5-star reviews given for pet products.
 
 Firstly, I filtered the reviews to only include those that received 20 or more votes in order to pick reviews that are more likely to be helpful. Additionally, I filtered the rows again to include only those that earned at least a 50% rate of "helpful" reviews. I sorted the reviews into two dataframes: one with Vine reviews and the other with non-Vine reviews. 
 
@@ -23,7 +23,6 @@ As one may expect, the non-Vine reviews far out numbered the Vine reviews.
 #### 5-Star Count
 - Vine reviews with 5 stars: 65
 - non-Vine reviews with 5 stars: 20,612
-
 
 #### 5-Star Percentage
 - Vine reviews' 5-star percentage: 38.2%
