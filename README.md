@@ -1,5 +1,8 @@
 # Amazon_Vine_Analysis
 
+## Data 
+Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Pet_Products_v1_00.tsv.gz
+
 ## Overview
 ## Purpose
 In this project, I am analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies will pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
